@@ -1,0 +1,55 @@
+stage.set_background_color("black")
+
+my_list = ["red", "orange", "yellow", "green", "blue", "indigo", "violet","white"]
+
+for value in my_list:
+    star1 = codesters.Star(-200, 100, 5, 10, value)
+    star2 = codesters.Star(-185, 33, 5, 10, value)
+    star3 = codesters.Star(-50, 140, 5, 10, value)
+    star4 = codesters.Star(55, -120, 5, 10, value)
+    star5 = codesters.Star(175, -122, 5, 10, value)
+
+stage.wait(.25)
+
+my_list = ["red", "orange", "red", "orange", "red",
+
+"orange", "red","white"]
+
+for value in my_list:
+    star6 = codesters.Star(-200, -100, 5, 10, value)
+    star7 = codesters.Star(-185, -125, 5, 10, value)
+    star8 = codesters.Star(-90, 120, 5, 10, value)
+    star9 = codesters.Star(155, -166, 5, 10, value)
+    star10 = codesters.Star(75, -200, 5, 10, value)
+    stage.wait(.25)
+    
+star1.glide_to(0,0)
+
+star2.glide_to(0,0)
+
+star3.glide_to(0,0)
+
+star4.glide_to(0,0)
+
+star5.glide_to(0,0)
+
+star6.glide_to(0,0)
+
+star7.glide_to(0,0)
+
+star8.glide_to(0,0)
+
+star9.glide_to(0,0)
+
+star10.glide_to(0,0)
+
+star10 = codesters.Star(0, 0, 5, 125, "white")
+
+# text = codesters.Text("text", x, y)
+
+text = codesters.Text("Shoot for", 0, 20,"black")
+
+text = codesters.Text("The Stars!", 0, 0,"black")
+
+
+
